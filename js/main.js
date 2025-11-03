@@ -85,6 +85,7 @@
           dots: true,
           loop: true,
         });
+        $("#testimonial-section").fadeIn();
       }
     })
     .catch((err) => console.error("Error loading reviews:", err));
